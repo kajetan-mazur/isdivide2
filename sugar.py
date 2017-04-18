@@ -7,3 +7,6 @@ print(list_numbers_squares)
 
 list3 = [element**2 for element in list_numbers]
 print(list3)
+
+list4 = [element**2 for element in list_numbers if element%3 == 0]
+print(list4)
