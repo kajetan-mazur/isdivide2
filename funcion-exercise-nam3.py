@@ -12,3 +12,6 @@ print(name_list2)
 
 name_list3 = add_name("Karen")
 print(name_list3)
+
+add_name("Peter", name_list)
+print(name_list)
